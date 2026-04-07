@@ -2,8 +2,7 @@ create or replace PACKAGE                XMLA_MDX
 AS
 
 /*****************************************************************************************
-Package : Extracts the Essbase data via XMLA services and presents in a Relational Table Format. A portion of this package 
-          ( getXmlaData function ) is based on Evgeniy.Rasyuks essbase-plsql-interface package.
+Package : Extracts the Essbase data via XMLA services and presents in a Relational Table Format.
 			 The internal functions have been deliberately exposed in the headers to give an insight of the transformation process
 
 Usage Example 
