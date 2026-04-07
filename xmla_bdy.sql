@@ -1,12 +1,10 @@
 create or replace PACKAGE BODY               XMLA_MDX
 /*
-Package : Extracts the Essbase data via XMLA services and presents in a Relational Table Format. A portion of this package 
-          ( getXmlaData function ) is based on Evgeniy.Rasyuks essbase-plsql-interface package.
+Package : Extracts the Essbase data via XMLA services and presents in a Relational Table Format. 
 
-Changes :  Evgeniy.Rasyuk : ( Original XMLA query (getXmlaData) to get the essbase data( essbase-plsql-interface )
-           Sanjay Ganvkar : Added the XML Transformation process ( extract_xml_to_string ) to transform the XML tuples/Ordinal
+Changes :   Added the XML Transformation process ( extract_xml_to_string ) to transform the XML tuples/Ordinal
 			                   into a relational format.
-			  Sanjay Ganvkar : 21st Sep 2015 -- Included Meta Character conversion & replaced with &amp1
+			  21st Sep 2015 -- Included Meta Character conversion & replaced with &amp1
 
  
 */
